@@ -1,0 +1,13 @@
+I wrote this guestbook in PHP, as simple as I could make it. It's almost ready to use straight out of the box; all you need to do to get it working is to place all files in the same directory and ensure that data.txt has the appropriate permissions: CHMOD 666.
+
+The guestbook data is written directly to a textfile, data.txt, from which it also reads data to reproduce on the same page. There's a cheeky little PHP redirect involved that makes it so that refreshing the page doesn't repost the message. There's also an even cheekier little field in the form that appears 1000 pixels left of your viewport. You don't see it, but bots do, and if they put a value in that field, nothing is posted - it's primitive spam control.
+
+Somewhere in the PHP code, you'll also find some commented out lines (lines preceded by //); if you uncomment those and input your email address, you'll receive an email for each new message. Neat stuff.
+
+Thanks to Gus for catching bugs and instructing me on how to clean up and improve some of the code.
+
+I hereby publish this guestbook into the public domain. If you want to use and adapt it, go forth and be merry, no credits required - although a link is always appreciated.
+
+2024-05-16
+rmf
+baccyflap.com
